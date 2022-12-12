@@ -19,10 +19,12 @@ import CommunityIcon from './icons/IconCommunity.vue'
     </ul>
     <br>
     <p>
-      <form name="myForm" action="/action_page.php" onsubmit="return validateForm()" method="post">
-      Name: <input type="text" name="fname">
-      <input type="submit" value="Submit">
-      </form>
+      <code>
+        <form name="myForm" action="/action_page.php" onsubmit="return validateForm()" method="post">
+        Name: <input type="text" name="fname">
+        <input type="submit" value="Submit">
+        </form>
+      </code>
     </p>
   </MainItem>
 

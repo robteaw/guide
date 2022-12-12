@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import Main from './components/Main.vue'
+import Navbar from './components/Navbar.vue'
 </script>
 
 <template>
@@ -8,6 +9,7 @@ import Main from './components/Main.vue'
   </header>
 
   <main>
+    <Navbar />
     <Main />
   </main>
 </template>
