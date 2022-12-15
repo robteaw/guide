@@ -1,15 +1,17 @@
 <script setup lang="ts">
-import Main from './components/Main.vue'
+import Main from './views/Home.vue'
 import Navbar from './components/Navbar.vue'
 </script>
 
 <template>
-  <header>
-    <!-- <img alt="Vue logo" class="logo" src="./assets/logo.svg" width="125" height="125" /> -->
-  </header>
-
   <main>
-    <Navbar />
+    <Navbar>
+      <router-link to="/">HTML</router-link>
+      <router-link to="/css">CSS</router-link>
+      <router-link to="/javascript">JavaScript</router-link>
+      <router-link to="/other">Other</router-link>
+    </Navbar>
+    <router-view />
     <Main />
   </main>
 </template>
